@@ -16,17 +16,14 @@ function Homepage() {
               <img src={ruiImg} alt='rui-image' className='ruiImg'/>
               <div className='text-div'>
                 <p>I'm a 30-year-old web developer from Portugal, currently living in Madrid. 
-                Frontend development is my passion, where I craft captivating digital experiences. 
+                Frontend development is my passion, where I can create captivating digital experiences. 
                 <p>Portuguese is my native languange but I'm also fluent in both English and Spanish. With an international background, 
                   I bring a fresh perspective to every project. Engaging in Madrid's tech scene, 
-                  I proactively stay active and stay current with the latest trends in the frontend development field.</p>
+                  I proactively stay current with the latest trends in web development.</p>
                 </p>
-                <p>Now, I'm eager to join an international company, channeling my creativity 
-                  and expertise to make waves in web development worldwide.</p>
               </div>
             </div>
             <div className='links-div'>
-              <p>Contact me</p>
               <Link to='https://github.com/RuiMSMelo?tab=repositories' target='_blank'><img src={githubImg} className='link-imgs'/></Link>
               <Link to='https://www.linkedin.com/in/rui-ser%C3%B4dio-melo-a19715276/' target='_blank'><img src={linkedinImg} className='link-imgs'/></Link>
               <a href={cvPDF} target='_blank' rel='noopener noreferrer' className='cv-btn'><img src={cvIcon} className='link-imgs'/></a>
