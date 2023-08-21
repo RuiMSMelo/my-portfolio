@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+}
+.all-pages{ 
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  left: 100px;
+  color: white;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+.text {
+  padding: 100px 75px 20px 75px;
+  background-image: linear-gradient(90deg, rgba(90, 78, 78, 0.8), rgb(15, 10, 151));
+}
+.link-imgs {
+  width: 40px;
+}
+.cv-img {
+  width: auto;
+}
+.project-imgs, .ruiImg {
+  width: 60%;
+  border: solid 2px white;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+.navbar {
+  background-color: rgba(90, 78, 78, 0.8);
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+  font-size: 2em;
+  height: 100vh;
+  width: 30vw;
+  min-width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  color: white;
+  padding: 0 0.4em 0 0.4em;
+  padding: 0;
+}
+.navbar-btns * {
+  all: unset;
+}
+.navbar-btns {
+  all: unset;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar-btns:hover {
+  cursor: pointer;
+  text-shadow: 0 0 15px rgba(139, 139, 139, 0.7);
+  color: rgba(94, 59, 191, 0.8);
+}
+.projects {
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+.project1, .project2, .project3, .project4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.project1 *, .project2 *, .project3 *, .project4 *{
+  display: flex;
+  justify-content: center;
+}
+.ruiImg {
+  width: 300px;
+}
+.navbarunselected {
+  color: rgb(100, 100, 100);
+}
+.two-githubs {
+  display: flex;
+  align-items: center;
+}
+.two-githubs * {
+  margin-right: 10px;
+}
+.img-text-div {
+  display: flex;
+  align-items: center;
+}
+.text-div {
+  margin-left: 25px;
+}
+.links-div {
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+}
+.links-div * {
+  margin-right: 10px;
+}
+.homepage {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.project-imgs, .link-imgs {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.project-imgs:hover {
+  transform: scale(1.01);
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.6);
+}
+.link-imgs:hover {
+  transform: scale(1.1);
+}
