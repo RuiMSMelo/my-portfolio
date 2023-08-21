@@ -1,2 +1,1 @@
-# portfolio
-My personal project porfolio
+My personal project portfolio
