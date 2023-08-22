@@ -14,9 +14,9 @@ function Navbar() {
                 <Link to="/projects">My Projects</Link> 
             </div>
             <div className='links-div'>
-              <Link to='https://github.com/RuiMSMelo?tab=repositories' target='_blank'><img src={githubImg} className='link-imgs'/></Link>
-              <Link to='https://www.linkedin.com/in/rui-ser%C3%B4dio-melo-a19715276/' target='_blank'><img src={linkedinImg} className='link-imgs'/></Link>
-              <a href={cvPDF} target='_blank' rel='noopener noreferrer' className='cv-btn'><img src={cvIcon} className='link-imgs'/></a>
+              <Link to='https://github.com/RuiMSMelo?tab=repositories' target='_blank'><img src={githubImg} className='link-imgs' alt=''/></Link>
+              <Link to='https://www.linkedin.com/in/rui-ser%C3%B4dio-melo-a19715276/' target='_blank'><img src={linkedinImg} className='link-imgs' alt=''/></Link>
+              <a href={cvPDF} target='_blank' rel='noopener noreferrer' className='cv-btn'><img src={cvIcon} className='link-imgs' alt=''/></a>
             </div>
         </div>  
     )
