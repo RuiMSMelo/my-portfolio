@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.731b0b57.css",
-    "main.js": "/my-portfolio/static/js/main.094668c8.js",
-    "static/js/787.dbbd0357.chunk.js": "/my-portfolio/static/js/787.dbbd0357.chunk.js",
-    "static/media/nervecenter-homepage-gif.gif": "/my-portfolio/static/media/nervecenter-homepage-gif.6626af32ae229e9f1169.gif",
-    "static/media/soundspace-img1.png": "/my-portfolio/static/media/soundspace-img1.7eb38cc82b17249554fa.png",
-    "static/media/sharkattack-img.png": "/my-portfolio/static/media/sharkattack-img.1c282c66fbbeecc16857.png",
-    "static/media/ruidivingt6.jpg": "/my-portfolio/static/media/ruidivingt6.ef73a5134b0eed22cb90.jpg",
-    "static/media/RuiMeloCV-M.pdf": "/my-portfolio/static/media/RuiMeloCV-M.9d581873416b661fe453.pdf",
-    "static/media/LinkedIn_icon.svg.png": "/my-portfolio/static/media/LinkedIn_icon.svg.9dfdc9701c0e1eb622bb.png",
-    "static/media/bookzone-img1.png": "/my-portfolio/static/media/bookzone-img1.772141c300d1cc6d2270.png",
-    "static/media/github.svg": "/my-portfolio/static/media/github.ebd452bf402237ef25876cdcac686676.svg",
-    "index.html": "/my-portfolio/index.html",
-    "main.731b0b57.css.map": "/my-portfolio/static/css/main.731b0b57.css.map",
-    "main.094668c8.js.map": "/my-portfolio/static/js/main.094668c8.js.map",
-    "787.dbbd0357.chunk.js.map": "/my-portfolio/static/js/787.dbbd0357.chunk.js.map"
+    "main.css": "./static/css/main.731b0b57.css",
+    "main.js": "./static/js/main.8ad900ba.js",
+    "static/js/787.dbbd0357.chunk.js": "./static/js/787.dbbd0357.chunk.js",
+    "static/media/nervecenter-homepage-gif.gif": "./static/media/nervecenter-homepage-gif.6626af32ae229e9f1169.gif",
+    "static/media/soundspace-img1.png": "./static/media/soundspace-img1.7eb38cc82b17249554fa.png",
+    "static/media/sharkattack-img.png": "./static/media/sharkattack-img.1c282c66fbbeecc16857.png",
+    "static/media/ruidivingt6.jpg": "./static/media/ruidivingt6.ef73a5134b0eed22cb90.jpg",
+    "static/media/RuiMeloCV-M.pdf": "./static/media/RuiMeloCV-M.9d581873416b661fe453.pdf",
+    "static/media/LinkedIn_icon.svg.png": "./static/media/LinkedIn_icon.svg.9dfdc9701c0e1eb622bb.png",
+    "static/media/bookzone-img1.png": "./static/media/bookzone-img1.772141c300d1cc6d2270.png",
+    "static/media/github.svg": "./static/media/github.ebd452bf402237ef25876cdcac686676.svg",
+    "index.html": "./index.html",
+    "main.731b0b57.css.map": "./static/css/main.731b0b57.css.map",
+    "main.8ad900ba.js.map": "./static/js/main.8ad900ba.js.map",
+    "787.dbbd0357.chunk.js.map": "./static/js/787.dbbd0357.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.731b0b57.css",
-    "static/js/main.094668c8.js"
+    "static/js/main.8ad900ba.js"
   ]
 }
