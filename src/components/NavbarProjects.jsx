@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import githubImg from '../img/github.svg'
 import linkedinImg from '../img/LinkedIn_icon.svg.png'
-import cvPDF from '../img/RuiMeloCV-M.pdf'
+import cvPDF from '../img/CV-RuiMelo.pdf'
 import cvIcon from '../img/cvicon.png'
 
 function Navbar() {
