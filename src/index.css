@@ -68,6 +68,7 @@ body {
 .project1 *, .project2 *, .project3 *, .project4 *{
   display: flex;
   justify-content: center;
+  animation: fade 0.5s ease-in;
 }
 .ruiImg {
   width: 300px;
@@ -104,9 +105,21 @@ body {
   flex-direction: column;
   justify-content: center;
 }
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 .homepage h1 {
   position: absolute;
   top: 10vh;
+  animation: fade 0.5s ease-in;
+}
+.img-text-div img, p {
+  animation: fade 0.5s ease-in;
 }
 .project-imgs, .link-imgs {
   transition: transform 0.2s ease, box-shadow 0.2s ease;
