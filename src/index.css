@@ -101,8 +101,11 @@ body {
   margin-right: 5vw ;
 }
 .links-div {
+  width: 20vw;
   display: flex;
+  flex-direction: row;
   justify-content: center;
+  align-items: center;
   position: absolute;
   bottom: 1vh;
 }
