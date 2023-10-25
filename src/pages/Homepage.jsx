@@ -5,7 +5,6 @@ function Homepage() {
     return (
         <div className='all-pages'>
           <Navbar />
-          <p>HELLO</p>
           <div className='text homepage'>
             <h1>Hi, I'm Rui Serôdio Melo</h1>
             <div className='img-text-div'>
