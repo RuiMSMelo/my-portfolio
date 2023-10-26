@@ -7,11 +7,9 @@ import ProjectFive from './Projectfive'
 
 function Homepage() {
     return (
-        <div>
+        <div id='homepageSnapSetup'>
           <Landingpage />
-          <br></br>
           <ProjectOne />
-          <br></br>
           <ProjectTwo />
           <ProjectThree />
           <ProjectFour />

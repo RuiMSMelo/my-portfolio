@@ -2,30 +2,40 @@ body {
   margin: 0;
 }
 .homepage {
+  margin: 0;
+  padding: 0;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #002726;
+  font-family: 'Ubuntu', sans-serif;
+  color: rgb(255, 255, 255);
+  width: 100vw;
+  height: 100vh;
+}
+#homepageSnapSetup {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 100vh;
+}
+.snap {
+  scroll-snap-align: start;
 }
 .projectsTextArea {
   float: right;
-  backdrop-filter: blur(5px);
+  width: 40vw;
+  height: 100vh;
+  backdrop-filter: blur(6px);
+  border-left: solid 1px black;
 }
 .all-pages{ 
   font-family: 'Ubuntu', sans-serif;
   color: rgb(255, 255, 255);
   width: 100vw;
   height: 100vh;
-  background-color: #002726;
-}
-.text {
-  width: 100vw;
-  padding: 100px;
-}
-.link-imgs {
-  width: 40px;
-}
-.cv-img {
-  width: auto;
+  overflow-x: hidden;
 }
 .project-imgs {
   min-width: 100%;
@@ -34,46 +44,54 @@ body {
   border: solid 2px white;
   border-radius: 10px;
 }
-.navbar {
-  background-color: #002726;
-  font-family: 'Ubuntu', sans-serif;
-  font-weight: 500;
-  font-size: 2em;
-  height: 100vh;
-  width: 30vw;
-  min-width: 200px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  color: white;
-  padding: 0 0.4em 0 0.4em;
-  padding: 0;
-  left: 0;
-}
-.navbar-btns * {
-  all: unset;
-}
-.navbar-btns {
-  all: unset;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.navbar-btns:hover {
-  cursor: pointer;
-  text-shadow: 0 0 30px rgba(0, 0, 0, 0.8);
-}
 .projects {
   width: 100vw;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  overflow-y: scroll;
-  overflow-x: hidden;
 }
-.project1, .project2, .project3, .project4, .project5, .project6 {
-  display: flex;
-  align-items: center;
+.project1 {
+  background-image: url('../src/img/soundspace-img1.png');
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  scroll-snap-align: start;
+}
+.project2 {
+  background-image: url('../src/img/teslaclone-img.png');
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  scroll-snap-align: start;
+}
+.project3 {
+  background-image: url('../src/img/bookzone-img1.png');
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  scroll-snap-align: start;
+}
+.project4 {
+  background-image: url('../src/img/sharkattack-img.png');
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  scroll-snap-align: start;
+}
+.project5 {
+  background-image: url('../src/img/nervecenternewgif.gif');
+  width: 100vw;
+  height: 100vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+  scroll-snap-align: start;
+}
+.project1, .project2, .project3, .project4, .project5 {
+  scroll-snap-align: start;
 }
 .project1 *, .project2 *, .project3 *, .project4 *, .project5 *, .project6 * {
   display: flex;
@@ -84,9 +102,6 @@ body {
 }
 .ruiImg {
   width: 300px;
-}
-.navbarunselected {
-  color: rgba(78, 78, 78, 0.434);
 }
 .two-githubs {
   display: flex;
@@ -124,11 +139,6 @@ body {
     opacity: 1;
   }
 }
-.homepage h1 {
-  position: absolute;
-  top: 10vh;
-  animation: fade 0.5s ease-in;
-}
 .img-text-div img, p {
   animation: fade 0.5s ease-in;
 }
@@ -144,6 +154,12 @@ body {
 }
 .project-link {
   max-width: 400px;
+}
+.link-imgs {
+  width: 40px;
+}
+.cv-img {
+  width: auto;
 }
 
 
