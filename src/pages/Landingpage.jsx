@@ -2,6 +2,11 @@ import ruiImg from '../img/ruidivingt6.jpg'
 
 
 function Landingpage() {
+
+    const arrowStyle = {
+      fontSize: '24px'
+    }
+
     return (
         <div className='homepage snap'>
           <h1>Hi, I'm Rui Serôdio Melo</h1>
@@ -16,8 +21,8 @@ function Landingpage() {
               </p>
             </div>
           </div>
-          <div>
-            <p>scroll down to check out my projects!</p>
+          <div id='checkoutMyProjectsDiv'>
+            <p>scroll down to check out my projects! <span style={arrowStyle}>↓</span></p>
           </div>
         </div>
     )
