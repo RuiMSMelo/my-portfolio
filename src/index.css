@@ -1,149 +1,42 @@
-body {
+body, html {
   margin: 0;
-}
-.all-pages{ 
-  font-family: monospace;
-  left: 100px;
-  font-family: 'Ubuntu', sans-serif;
-  color: rgb(255, 255, 255);
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-}
-.text {
-  width: 100vw;
-  padding: 100px 75px 20px 100px;
-  background-image: linear-gradient(90deg, rgba(111, 140, 160, 0.9), rgba(150, 150, 150, 0.9));
-  font-size: 1.1rem;
-}
-.link-imgs {
-  width: 40px;
-}
-.cv-img {
-  width: auto;
-}
-.project-imgs {
-  min-width: 100%;
-  max-height: 300px;
-  object-fit: cover;
-  border: solid 2px white;
-  border-radius: 10px;
-}
-.navbar {
-  background-color: rgba(111, 140, 160, 0.9);
-  font-family: 'Ubuntu', sans-serif;
-  font-weight: 500;
-  font-size: 2em;
-  height: 100vh;
-  width: 30vw;
-  min-width: 200px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  color: white;
-  padding: 0 0.4em 0 0.4em;
   padding: 0;
+  height: 100%;
+}
+
+.homepage-container {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.video-container {
+  position: absolute;
+  top: 0;
   left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -1;
 }
-.navbar-btns * {
-  all: unset;
+
+.video-background {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
-.navbar-btns {
-  all: unset;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.navbar-btns:hover {
-  cursor: pointer;
-  text-shadow: 0 0 30px rgba(0, 0, 0, 0.8);
-}
-.projects {
-  width: 100vw;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  overflow-y: scroll;
-  overflow-x: hidden;
-}
-.project1, .project2, .project3, .project4, .project5, .project6 {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-auto-flow: column;
-  padding: 30px 0 30px 0;
-}
-.project1 *, .project2 *, .project3 *, .project4 *, .project5 *, .project6 * {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  animation: fade 0.3s ease-in;
-}
-.ruiImg {
-  width: 300px;
-}
-.navbarunselected {
-  color: rgba(78, 78, 78, 0.434);
-}
-.two-githubs {
-  display: flex;
-  align-items: center;
-}
-.two-githubs * {
-  margin-right: 10px;
-}
-.img-text-div {
-  display: flex;
-  align-items: center;
-}
-.text-div {
-  margin-left: 25px;
-  margin-right: 5vw ;
-}
-.links-div {
-  width: 20vw;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+
+.homepage-text-container {
+  color: white;
+  font-size: 4rem;
   position: absolute;
-  bottom: 1vh;
+  left: 10%;
+  top: 10%;
 }
-.links-div * {
-  margin-right: 10px;
-  margin-left: 10px;  
-}
-.homepage {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-@keyframes fade {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-.homepage h1 {
+
+.home-button {
+  color: white;
   position: absolute;
-  top: 10vh;
-  animation: fade 0.5s ease-in;
-}
-.img-text-div img, p {
-  animation: fade 0.5s ease-in;
-}
-.project-imgs, .link-imgs {
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-.project-imgs:hover {
-  transform: scale(1.01);
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
-}
-.link-imgs:hover {
-  transform: scale(1.1);
-}
-.project-link {
-  max-width: 400px;
+  top: 10%;
+  left: 90%;
 }
