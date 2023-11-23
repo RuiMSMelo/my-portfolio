@@ -3,6 +3,12 @@ body, html {
   padding: 0;
   height: 100%;
 }
+a {
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  width: auto;
+}
 
 .homepage-container {
   position: relative;
@@ -32,6 +38,15 @@ body, html {
   position: absolute;
   left: 10%;
   top: 10%;
+  transition: color 1s ease, transform 1s ease;
+}
+
+.homepage-text-container * {
+  height: 20vh;
+}
+
+.homepage-text-container h1:hover {
+  color: #00ffff;
 }
 
 .home-button {

@@ -1,22 +1,44 @@
-import { Link } from 'react-router-dom'
-import oceanVideo from '../img/openoceanfinal.mp4'
+import { Link } from 'react-router-dom';
+import oceanVideo from '../img/openoceanfinal.mp4';
+import React, { useState } from 'react';
 
 function Homepage() {
-    return (
-        <div className='homepage-container'>
-          <div className='video-container'>
-            <video muted autoPlay loop className='video-background'><source src={oceanVideo} type="video/mp4" /></video>
-          </div>
-          <div>
-            <Link to='/'><h2 className='home-button'>Home</h2></Link>
-          </div>
-          <div className='homepage-text-container'>
-            <h1>Hello.</h1>
-            <h1>I'm</h1>
-            <h1>Rui Serôdio Melo</h1>
-          </div>
-        </div>
-    )
+  const [hoveredHello, setHoveredHello] = useState(false)
+  const [hoveredIm, setHoveredIm] = useState(false)
+  const [hoveredRui, setHoveredRui] = useState(false)
+
+  const handleHoverHello = () => {
+    setHoveredHello(!hoveredHello)
+  }
+
+  const handleHoverIm = () => {
+    setHoveredIm(!hoveredIm)
+  }
+
+  const handleHoverRui = () => {
+    setHoveredRui(!hoveredRui)
+  }
+
+  return (
+    <div className='homepage-container'>
+      <div className='video-container'>
+        <video muted autoPlay loop className='video-background'>
+          <source src={oceanVideo} type='video/mp4' />
+        </video>
+      </div>
+      <div className='homepage-text-container'>
+        <Link to='/about'><h1 onMouseEnter={handleHoverHello} onMouseLeave={handleHoverHello}>
+          {hoveredHello ? 'About' : 'Hello.'}
+        </h1></Link><br></br>
+        <Link to='/projects'><h1 onMouseEnter={handleHoverIm} onMouseLeave={handleHoverIm}>
+          {hoveredIm ? 'Projects' : "Im"}
+        </h1></Link><br></br>
+        <Link to='/contacts'><h1 onMouseEnter={handleHoverRui} onMouseLeave={handleHoverRui}>
+          {hoveredRui ? 'Contacts' : 'Rui Serôdio Melo'}
+        </h1></Link>
+      </div>
+    </div>
+  );
 }
 
-export default Homepage
+export default Homepage;
