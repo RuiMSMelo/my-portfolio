@@ -31,7 +31,7 @@ function Homepage() {
           {hoveredHello ? 'About' : 'Hello.'}
         </h1></Link><br></br>
         <Link to='/projects'><h1 onMouseEnter={handleHoverIm} onMouseLeave={handleHoverIm}>
-          {hoveredIm ? 'Projects' : "Im"}
+          {hoveredIm ? 'Projects' : "I'm"}
         </h1></Link><br></br>
         <Link to='/contacts'><h1 onMouseEnter={handleHoverRui} onMouseLeave={handleHoverRui}>
           {hoveredRui ? 'Contacts' : 'Rui Serôdio Melo'}
