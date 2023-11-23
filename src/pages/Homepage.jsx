@@ -8,7 +8,7 @@ function Homepage() {
             <video muted autoPlay loop className='video-background'><source src={oceanVideo} type="video/mp4" /></video>
           </div>
           <div>
-            <h2 className='home-button'>Home</h2>
+            <Link to='/'><h2 className='home-button'>Home</h2></Link>
           </div>
           <div className='homepage-text-container'>
             <h1>Hello.</h1>
