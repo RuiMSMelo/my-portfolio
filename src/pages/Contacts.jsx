@@ -1,11 +1,20 @@
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import linkedInIcon from '../img/LinkedIn_icon.svg.png';
-import gitHubIcon from '../img/githubwhite.jpg';
+import gitHubIcon from '../img/githubwhite.png';
 
 function Contacts() {
+    const [hoveredHome, setHoveredHome] = useState(false)
+
+    const handleHoverHome = () => {
+        setHoveredHome(!hoveredHome)
+    }
+
     return (
         <div className='allpages'>
-            <Link to='/'><h2 className='home-button'>Home</h2></Link>
+            <Link to='/'><h2 onMouseEnter={handleHoverHome} onMouseLeave={handleHoverHome} className='home-button'>
+                {hoveredHome ? 'home' : 'rui'}
+            </h2></Link>
             <h1>Let's work together!</h1>
             <p>
                 I'm always looking for opportunities to collaborate with companies or individuals.

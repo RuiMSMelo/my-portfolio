@@ -65,7 +65,11 @@ a {
   position: fixed;
   font-size: 1.5rem;
   top: 10%;
-  left: 90%;
+  margin-left: 75%;
+  transition: all 0.3s ease;
+}
+.home-button:hover {
+  margin-left: 74%;
 }
 
 .allpages {
@@ -98,6 +102,10 @@ a {
 .icons {
   max-width: 50px;
   display: inline-block;
+  transition: all 0.2s ease;
+}
+.icons:hover {
+  scale: 1.1;
 }
 
 .icons-link {
