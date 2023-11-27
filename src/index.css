@@ -145,3 +145,20 @@ a {
 .projects-div h3 {
   font-size: 6rem;
 }
+
+.project {
+  margin: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  height: 100vh;
+}
+
+.links-to-websites {
+  text-decoration: none;
+  color: #00ffff;
+}
+
+.small-icons {
+  max-width: 40px;
+  margin: 15px 15px 15px 0px;
+}
