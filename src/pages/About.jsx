@@ -1,5 +1,6 @@
-import { Link } from 'react-router-dom';
-import cvIcon from '../img/cvicon.png';
+import { Link } from 'react-router-dom'
+import cvIcon from '../img/cviconwhite.jpg'
+import cvPDF from '../img/CV-RuiMelo.pdf'
 
 function About() {
     return (
@@ -15,7 +16,7 @@ function About() {
                 <br /><br /><br />
                 Let's create together.
                 <br /><br />
-                Check out my CV: <img src={cvIcon} className='icons' alt='CV Icon' />
+                <a href={cvPDF} target='_blank' rel='noopener noreferrer' className='cv-btn'><img src={cvIcon} className='icons' alt=''/></a>
             </p>
         </div>
     );

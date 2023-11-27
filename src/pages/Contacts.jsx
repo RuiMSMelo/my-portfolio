@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import linkedInIcon from '../img/LinkedIn_icon.svg.png';
-import gitHubIcon from '../img/github.svg';
+import gitHubIcon from '../img/githubwhite.jpg';
 
 function Contacts() {
     return (
@@ -24,8 +24,8 @@ function Contacts() {
                 <br /><br />
                 Let's connect on:
                 <br /><br />
-                <img src={linkedInIcon} className='icons' alt='LinkedIn' />
-                <img src={gitHubIcon} className='icons' alt='GitHub' />
+                <Link to='https://www.linkedin.com/in/rui-ser%C3%B4dio-melo-a19715276/' target='_blank'><img src={linkedInIcon} className='icons' alt='LinkedIn' /></Link>
+                <Link to='https://github.com/RuiMSMelo?tab=repositories' target='_blank'><img src={gitHubIcon} className='icons' alt='GitHub' /></Link>
             </p>
         </div>
     );
