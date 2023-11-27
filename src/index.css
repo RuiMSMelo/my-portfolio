@@ -62,7 +62,7 @@ a {
 
 .home-button {
   color: white;
-  position: absolute;
+  position: fixed;
   font-size: 1.5rem;
   top: 10%;
   left: 90%;
@@ -70,18 +70,41 @@ a {
 
 .allpages {
   background-image: linear-gradient(180deg, rgba(0, 16, 36, 1), rgba(0, 0, 0, 1));
+  margin: 0;
   color: white;
   font-size: 4rem;
-  padding: 7% 15% 5% 10%;
+  padding: 0% 15% 0% 10%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
 .allpages p {
+  margin: 0;
+  height: 80vh;
   font-size: 1.1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.allpages h1 {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
 }
 
 .icons {
-  width: 100px;
+  max-width: 50px;
+  display: inline-block;
+}
+
+.icons-link {
+  display: inline-block;
+  width: fit-content;
+}
+
+.icons-div * {
+  margin-right: 5px;
 }

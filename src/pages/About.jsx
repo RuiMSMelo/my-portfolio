@@ -12,11 +12,13 @@ function About() {
                 <br /><br />
                 Originally from Portugal and now calling Madrid home, I bring my love for the digital world with a background rooted in marine biology and years of diving experience.
                 <br /><br />
-                Fluent in Portuguese, English, and Spanish, I bring a multilingual touch to my work. With an international background, I approach each project with a fresh perspective and keep myself actively involved in Madrid's tech community to stay updated on the latest trends in web development.
-                <br /><br /><br />
-                Let's create together.
+                Fluent in Portuguese, English, and Spanish, I bring a multilingual touch to my work.
                 <br /><br />
-                <a href={cvPDF} target='_blank' rel='noopener noreferrer' className='cv-btn'><img src={cvIcon} className='icons' alt=''/></a>
+                With an international background, I approach each project with a fresh perspective and keep myself actively involved in Madrid's tech community to stay updated on the latest trends in web development.
+                <br /><br /><br /><br /><br />
+                Let's create together.
+                <br /><br /><br />
+                <a href={cvPDF} target='_blank' rel='noopener noreferrer' className='icons-link'><img src={cvIcon} className='icons' alt=''/></a>
             </p>
         </div>
     );
