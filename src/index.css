@@ -94,7 +94,7 @@ a {
 
 .allpages h1 {
   margin: 0;
-  height: 100vh;
+  height: 90vh;
   display: flex;
   align-items: center;
 }
@@ -115,4 +115,33 @@ a {
 
 .icons-div * {
   margin-right: 5px;
+}
+
+.projects-div {
+  height: 150vh;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  transition: all 1s ease;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.projects-div h3, .projects-div a:not(:first-child) {
+  display: inline-block;
+  width: max-content;
+  line-height: 1;
+  text-decoration: none;
+  margin: 0;
+}
+.projects-div a:not(:first-child) {
+  height: max-content;
+}
+.projects-div h3:hover {
+  color: #00ffff;
+  margin-left: 20px;
+  width: 103%;
+  transition: color 0.2s ease, margin-left 0.2s ease, width 0.2s ease;
+}
+.projects-div h3 {
+  font-size: 6rem;
 }
