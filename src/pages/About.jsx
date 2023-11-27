@@ -1,11 +1,20 @@
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import cvIcon from '../img/cviconwhite.jpg'
 import cvPDF from '../img/CV-RuiMelo.pdf'
 
 function About() {
+    const [hoveredHome, setHoveredHome] = useState(false)
+
+    const handleHoverHome = () => {
+        setHoveredHome(!hoveredHome)
+    }
+
     return (
         <div className='allpages'>
-            <Link to='/'><h2 className='home-button'>Home</h2></Link>
+            <Link to='/'><h2 onMouseEnter={handleHoverHome} onMouseLeave={handleHoverHome} className='home-button'>
+                {hoveredHome ? 'home' : 'rui'}
+            </h2></Link>
             <h1>I design & build digital experiences</h1>
             <p>
                 Hey, I'm Rui Serôdio Melo, a web developer with a profound connection to the ocean.
