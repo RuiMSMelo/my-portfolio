@@ -28,13 +28,13 @@ function Homepage() {
       </div>
       <div className='homepage-text-container'>
         <Link to='/about'><h1 onMouseEnter={handleHoverHello} onMouseLeave={handleHoverHello}>
-          {hoveredHello ? 'About' : 'Hello.'}
+          {hoveredHello ? 'About me' : 'Hello.'}
         </h1></Link><br></br>
         <Link to='/projects'><h1 onMouseEnter={handleHoverIm} onMouseLeave={handleHoverIm}>
-          {hoveredIm ? 'Projects' : "I'm"}
+          {hoveredIm ? 'My projects' : "I'm"}
         </h1></Link><br></br>
         <Link to='/contacts'><h1 onMouseEnter={handleHoverRui} onMouseLeave={handleHoverRui}>
-          {hoveredRui ? 'Contacts' : 'Rui Serôdio Melo'}
+          {hoveredRui ? 'Contact me' : 'Rui Melo'}
         </h1></Link>
       </div>
     </div>
