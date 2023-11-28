@@ -31,11 +31,11 @@ function Bookzone() {
                 <br /><br /><br /><br />
                 Website:
                 <br />
-                <Link to='https://bookzone.adaptable.app/' target='_blank'><span className='links-to-websites'>https://bookzone.adaptable.app/</span></Link>
+                <Link to='https://bookzone.adaptable.app/' target='_blank' className='links-to-websites'><span>https://bookzone.adaptable.app/</span></Link>
                 <br />
                 Github:
                 <br />
-                <Link to='https://github.com/RuiMSMelo/bookzone' target='_blank'><span className='links-to-websites'>https://github.com/RuiMSMelo/bookzone</span></Link>
+                <Link to='https://github.com/RuiMSMelo/bookzone' target='_blank' className='links-to-websites'><span>https://github.com/RuiMSMelo/bookzone</span></Link>
             </p>
         </div>
     );

@@ -5,10 +5,30 @@ import gitHubIcon from '../img/githubwhite.png';
 
 function Contacts() {
     const [hoveredHome, setHoveredHome] = useState(false)
+    const [hoveredEmail, setHoveredEmail] = useState(false)
 
     const handleHoverHome = () => {
         setHoveredHome(!hoveredHome)
     }
+
+    const handleHoverEmail = () => {
+        setHoveredEmail(!hoveredEmail)
+    }
+
+    const handleCopyEmail = () => {
+        const emailToCopy = 'ruimsmelo@gmail.com';
+
+        const textarea = document.createElement('textarea');
+        textarea.value = emailToCopy;
+        document.body.appendChild(textarea);
+
+        textarea.select();
+        textarea.setSelectionRange(0, 99999);
+
+        document.execCommand('copy');
+
+        document.body.removeChild(textarea);
+    };
 
     return (
         <div className='allpages'>
@@ -25,9 +45,9 @@ function Contacts() {
                 <br /><br /><br />
                 Feel free to reach out through any platforms below:
                 <br /><br /><br /><br />
-                Email: ruimsmelo@gmail.com
-                <br /><br />
-                Phone: +351 91 737 86 31
+                Email:<span className='email-span' onClick={handleCopyEmail} onMouseEnter={handleHoverEmail} onMouseLeave={handleHoverEmail}>{hoveredEmail ? 'copy email to clipboard' : 'ruimsmelo@gmail.com'}</span>
+                <br />
+                Phone:<br />+351 91 737 86 31
                 <br /><br /><br />
                 Let's connect on:
                 <br /><br />

@@ -28,11 +28,11 @@ function Pluginflow() {
                 <br /><br /><br /><br />
                 Website:
                 <br />
-                <Link to='https://ruimsmelo.github.io/NerveCenter-Homepage/' target='_blank'><span className='links-to-websites'>https://ruimsmelo.github.io/NerveCenter-Homepage/</span></Link>
+                <Link to='https://ruimsmelo.github.io/NerveCenter-Homepage/' target='_blank' className='links-to-websites'><span>https://ruimsmelo.github.io/NerveCenter-Homepage/</span></Link>
                 <br />
                 Github:
                 <br />
-                <Link to='https://github.com/RuiMSMelo/NerveCenter-Homepage' target='_blank'><span className='links-to-websites'>https://github.com/RuiMSMelo/NerveCenter-Homepage</span></Link>
+                <Link to='https://github.com/RuiMSMelo/NerveCenter-Homepage' target='_blank' className='links-to-websites'><span>https://github.com/RuiMSMelo/NerveCenter-Homepage</span></Link>
             </p>
         </div>
     );

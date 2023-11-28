@@ -27,11 +27,11 @@ function Tesla() {
                 <br /><br /><br /><br />
                 Website:
                 <br />
-                <Link to='https://ruimsmelo.github.io/tesla-clone/' target='_blank'><span className='links-to-websites'>https://ruimsmelo.github.io/tesla-clone/</span></Link>
+                <Link to='https://ruimsmelo.github.io/tesla-clone/' target='_blank' className='links-to-websites'><span>https://ruimsmelo.github.io/tesla-clone/</span></Link>
                 <br />
                 Github:
                 <br />
-                <Link to='https://github.com/RuiMSMelo/tesla-clone' target='_blank'><span className='links-to-websites'>https://github.com/RuiMSMelo/tesla-clone</span></Link>
+                <Link to='https://github.com/RuiMSMelo/tesla-clone' target='_blank' className='links-to-websites'><span>https://github.com/RuiMSMelo/tesla-clone</span></Link>
             </p>
         </div>
     );
