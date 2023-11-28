@@ -15,13 +15,11 @@ function Sharkattack() {
                 {hoveredHome ? 'home' : 'rui'}
             </h2></Link>
             <p>
-                A simple game where you control a shark, in a 2d screen, and need to eat all the food you can without getting caught by the awful, nature-disturbing scuba divers.
-                <br /><br />
-                made with
-                <br />
                 <div className='madewith-div'>
                     <img src={javascripticon} className='small-icons' alt='Javascript' title='Javascript'/>
                 </div>
+                <br /><br />
+                A simple game where you control a shark, in a 2d screen, and need to eat all the food you can without getting caught by the awful, nature-disturbing scuba divers.
                 <br /><br /><br /><br />
                 Website:
                 <br />
@@ -31,6 +29,7 @@ function Sharkattack() {
                 <br />
                 <Link to='https://github.com/RuiMSMelo/shark-attack' target='_blank' className='links-to-websites'><span>https://github.com/RuiMSMelo/shark-attack</span></Link>
             </p>
+                <Link to='/projects' className='back-to-projects'><span>Back to projects</span></Link>
         </div>
     );
 }

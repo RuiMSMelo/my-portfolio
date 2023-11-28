@@ -17,14 +17,12 @@ function Pluginflow() {
                 {hoveredHome ? 'home' : 'rui'}
             </h2></Link>
             <p>
-                During my intership with Nervecenter I was tasked to develop this homepage to their new website.
-                <br /><br />
-                made with
-                <br />
                 <div className='madewith-div'>
                     <img src={htmlicon} className='small-icons' alt='HTML' title='HTML'/>
                     <img src={cssicon} className='small-icons' alt='CSS' title='CSS'/>
                 </div>
+                <br /><br />
+                During my intership with Nervecenter I was tasked to develop this homepage to their new website.
                 <br /><br /><br /><br />
                 Website:
                 <br />
@@ -34,6 +32,7 @@ function Pluginflow() {
                 <br />
                 <Link to='https://github.com/RuiMSMelo/NerveCenter-Homepage' target='_blank' className='links-to-websites'><span>https://github.com/RuiMSMelo/NerveCenter-Homepage</span></Link>
             </p>
+                <Link to='/projects' className='back-to-projects'><span>Back to projects</span></Link>
         </div>
     );
 }
