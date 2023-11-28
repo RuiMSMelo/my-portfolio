@@ -45,7 +45,7 @@ function Contacts() {
                 <br /><br /><br />
                 Feel free to reach out through any platforms below:
                 <br /><br /><br /><br />
-                Email:<span className='email-span' onClick={handleCopyEmail} onMouseEnter={handleHoverEmail} onMouseLeave={handleHoverEmail}>{hoveredEmail ? 'copy email to clipboard' : 'ruimsmelo@gmail.com'}</span>
+                Email:<span className='email-span' onClick={handleCopyEmail} onMouseEnter={handleHoverEmail} onMouseLeave={handleHoverEmail}>{hoveredEmail ? 'click to copy email to clipboard' : 'ruimsmelo@gmail.com'}</span>
                 <br />
                 Phone:<br />+351 91 737 86 31
                 <br /><br /><br />
