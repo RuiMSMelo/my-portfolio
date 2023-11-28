@@ -16,14 +16,12 @@ function Tesla() {
                 {hoveredHome ? 'home' : 'rui'}
             </h2></Link>
             <p>
-                A copy of Tesla's website - to further improve my frontend development skills.
-                <br /><br />
-                made with
-                <br />
                 <div className='madewith-div'>
                     <img src={reacticon} className='small-icons' alt='React' title='React'/>
                     <img src={cssicon} className='small-icons' alt='CSS' title='CSS'/>
                 </div>
+                <br /><br />
+                A copy of Tesla's website - to further improve my frontend development skills.
                 <br /><br /><br /><br />
                 Website:
                 <br />
@@ -33,6 +31,7 @@ function Tesla() {
                 <br />
                 <Link to='https://github.com/RuiMSMelo/tesla-clone' target='_blank' className='links-to-websites'><span>https://github.com/RuiMSMelo/tesla-clone</span></Link>
             </p>
+                <Link to='/projects' className='back-to-projects'><span>Back to projects</span></Link>
         </div>
     );
 }
