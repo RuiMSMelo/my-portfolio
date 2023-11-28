@@ -162,3 +162,22 @@ a {
   max-width: 40px;
   margin: 15px 15px 15px 0px;
 }
+
+.email-span {
+  cursor: pointer;
+  width: max-content;
+}
+.email-span:hover {
+  color: #00ffff;
+  padding-left: 2%;
+  transition: all 0.2s ease;
+}
+
+.links-to-websites {
+  width: max-content;
+}
+.links-to-websites:hover {
+  color: #00ffff;
+  padding-left: 2%;
+  transition: all 0.2s ease;
+}

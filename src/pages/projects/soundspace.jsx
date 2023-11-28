@@ -31,12 +31,12 @@ function Soundspace() {
                 <br /><br /><br /><br />
                 Website:
                 <br />
-                <Link to='https://lively-sprite-942da6.netlify.app/' target='_blank'><span className='links-to-websites'>https://lively-sprite-942da6.netlify.app/</span></Link>
+                <Link to='https://lively-sprite-942da6.netlify.app/' target='_blank' className='links-to-websites'><span>https://lively-sprite-942da6.netlify.app/</span></Link>
                 <br />
                 Github:
                 <br />
-                <Link to='https://github.com/RuiMSMelo/soundSpaceFrontend' target='_blank'><span className='links-to-websites'>Frontend</span></Link>
-                <Link to='https://github.com/RuiMSMelo/soundSpaceBackend' target='_blank'><span className='links-to-websites'>Backend</span></Link>
+                <Link to='https://github.com/RuiMSMelo/soundSpaceFrontend' target='_blank' className='links-to-websites'><span>Frontend</span></Link>
+                <Link to='https://github.com/RuiMSMelo/soundSpaceBackend' target='_blank' className='links-to-websites'><span>Backend</span></Link>
             </p>
         </div>
     );

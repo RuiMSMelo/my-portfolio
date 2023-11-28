@@ -20,16 +20,16 @@ function Sharkattack() {
                 made with
                 <br />
                 <div className='madewith-div'>
-                    <img src={javascripticon} className='small-icons' alt='HTML' title='HTML'/>
+                    <img src={javascripticon} className='small-icons' alt='Javascript' title='Javascript'/>
                 </div>
                 <br /><br /><br /><br />
                 Website:
                 <br />
-                <Link to='https://ruimsmelo.github.io/shark-attack/' target='_blank'><span className='links-to-websites'>https://ruimsmelo.github.io/shark-attack/</span></Link>
+                <Link to='https://ruimsmelo.github.io/shark-attack/' target='_blank' className='links-to-websites'><span>https://ruimsmelo.github.io/shark-attack/</span></Link>
                 <br />
                 Github:
                 <br />
-                <Link to='https://github.com/RuiMSMelo/shark-attack' target='_blank'><span className='links-to-websites'>https://github.com/RuiMSMelo/shark-attack</span></Link>
+                <Link to='https://github.com/RuiMSMelo/shark-attack' target='_blank' className='links-to-websites'><span>https://github.com/RuiMSMelo/shark-attack</span></Link>
             </p>
         </div>
     );
