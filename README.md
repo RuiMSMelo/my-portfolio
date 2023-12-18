@@ -2,4 +2,5 @@ My personal project portfolio
 
 https://ruimsmelo.github.io/my-portfolio/
 
-![portfolio_screenshot](https://github.com/RuiMSMelo/my-portfolio/assets/128095678/ad492610-ce93-4b41-8910-e18deda8fb36)
+![image](https://github.com/RuiMSMelo/my-portfolio/assets/128095678/62c8b935-dab5-4a81-8c48-c7f6310701fc)
+
