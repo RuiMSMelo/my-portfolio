@@ -1,26 +1,44 @@
-import Navbar from '../components/NavbarHome.jsx'
-import ruiImg from '../img/ruidivingt6.jpg'
+import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
+import oceanVideo from '../img/openoceanfinal.mp4';
 
 function Homepage() {
-    return (
-        <div className='all-pages'>
-          <Navbar />
-          <div className='text homepage'>
-            <h1>Hi, I'm Rui Serôdio Melo</h1>
-            <div className='img-text-div'>
-              <img src={ruiImg} alt='' className='ruiImg'/>
-              <div className='text-div'>
-                <p>I'm a 30-year-old web developer from Portugal, currently living in Madrid. 
-                Frontend development is my passion, where I can create captivating digital experiences. 
-                <p>Portuguese is my native language but I'm also fluent in both English and Spanish. With an international background, 
-                  I bring a fresh perspective to every project. Engaging in Madrid's tech scene, 
-                  I proactively stay current with the latest trends in web development.</p>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-    )
+  const [hoveredHello, setHoveredHello] = useState(false)
+  const [hoveredIm, setHoveredIm] = useState(false)
+  const [hoveredRui, setHoveredRui] = useState(false)
+
+  const handleHoverHello = () => {
+    setHoveredHello(!hoveredHello)
+  }
+
+  const handleHoverIm = () => {
+    setHoveredIm(!hoveredIm)
+  }
+
+  const handleHoverRui = () => {
+    setHoveredRui(!hoveredRui)
+  }
+
+  return (
+    <div className='homepage-container'>
+      <div className='video-container'>
+        <video muted autoPlay loop className='video-background'>
+          <source src={oceanVideo} type='video/mp4' />
+        </video>
+      </div>
+      <div className='homepage-text-container'>
+        <Link to='/about'><h1 onMouseEnter={handleHoverHello} onMouseLeave={handleHoverHello}>
+          {hoveredHello ? 'About' : 'Hello.'}
+        </h1></Link>
+        <Link to='/projects'><h1 onMouseEnter={handleHoverIm} onMouseLeave={handleHoverIm}>
+          {hoveredIm ? 'Projects' : "I'm"}
+        </h1></Link>
+        <Link to='/contacts'><h1 onMouseEnter={handleHoverRui} onMouseLeave={handleHoverRui}>
+          {hoveredRui ? 'Contact me' : 'Rui Melo'}
+        </h1></Link>
+      </div>
+    </div>
+  );
 }
 
-export default Homepage
+export default Homepage;
