@@ -108,7 +108,7 @@ a {
 
 .allpages h1 {
   margin: 0;
-  height: 90vh;
+  height: 100vh;
   display: flex;
   align-items: center;
 }
@@ -209,13 +209,15 @@ a {
 }
 
 .back-to-projects {
-  margin-top: 100vh;
+  position: absolute;
+  left: 80%;
+  top: 90%;
   font-size: 1rem;
 }
 .back-to-projects:hover {
   color: #00ffff;
-  padding-left: 2%;
-  width: 102%;
+  padding-left: 1%;
+  width: 101%;
   transition: all 0.2s ease;
 }
 .back-to-projects:not(:hover) {
