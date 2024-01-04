@@ -16,7 +16,7 @@
   "scripts": {
     "start": "react-scripts start",
     "predeploy": "npm run build",
-    "deploy": "npm run build && gh-pages -d build -b gh-pages -r main",
+    "deploy": "npm run build && gh-pages -d build -b gh-pages -r origin",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
