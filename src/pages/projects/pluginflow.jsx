@@ -22,7 +22,7 @@ function Pluginflow() {
                     <img src={cssicon} className='small-icons' alt='CSS' title='CSS'/>
                 </div>
                 <br /><br />
-                During my intership with Nervecenter I was tasked to develop this homepage to their new website.
+                During my intership with Nervecenter I was tasked to develop this homepage for their new website.
                 <br /><br /><br /><br />
                 Website:
                 <br />
