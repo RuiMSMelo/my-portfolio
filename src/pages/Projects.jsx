@@ -23,6 +23,9 @@ function Projects() {
       <Link to="/soundspace">
         <h3>SoundSpace</h3>
       </Link>
+      <Link to="/clothesStore">
+        <h3>Clothes Store</h3>
+      </Link>
       <Link to="/bookzone">
         <h3>Bookzone</h3>
       </Link>
