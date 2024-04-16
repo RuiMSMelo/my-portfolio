@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import cvIcon from "../img/cviconwhite.jpg";
-import cvPDF from "../img/CV-RuiMelo.pdf";
+import cvPDFspanish from "../img/RuiCVes.pdf";
 
 function AboutES() {
   const [hoveredHome, setHoveredHome] = useState(false);
@@ -47,13 +47,15 @@ function AboutES() {
         <br />
         <br />
         <br />
-        <br />
         Let's create together!
         <br />
         <br />
         <br />
+        My CV in spanish:
+        <br />
+        <br />
         <a
-          href={cvPDF}
+          href={cvPDFspanish}
           target="_blank"
           rel="noopener noreferrer"
           className="icons-link"
