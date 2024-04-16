@@ -9,11 +9,13 @@ import Bookzone from "./pages/projects/bookzone";
 import Sharkattack from "./pages/projects/sharkattack";
 import Pluginflow from "./pages/projects/pluginflow";
 import ClothesStore from "./pages/projects/clothesstore";
+import HomepageES from "./pages/HomepageES";
 
 function App() {
   return (
     <Routes>
-      <Route path="/" element={<Homepage />} />
+      <Route path="/es" element={<HomepageES />} />
+      <Route path="/en" element={<Homepage />} />
       <Route path="/projects" element={<Projects />} />
       <Route path="/about" element={<About />} />
       <Route path="/contacts" element={<Contacts />} />
