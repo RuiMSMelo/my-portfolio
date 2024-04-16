@@ -32,7 +32,7 @@ function Contacts() {
 
   return (
     <div className="allpages">
-      <Link to="/">
+      <Link to="/en">
         <h2
           onMouseEnter={handleHoverHome}
           onMouseLeave={handleHoverHome}

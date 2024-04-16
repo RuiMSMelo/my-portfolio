@@ -10,7 +10,7 @@ function Projects() {
 
   return (
     <div className="allpages projects-div">
-      <Link to="/">
+      <Link to="/en">
         <h2
           onMouseEnter={handleHoverHome}
           onMouseLeave={handleHoverHome}
