@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import cvIcon from "../img/cviconwhite.jpg";
-import cvPDFenglish from "../img/RuiCVeng.pdf";
+import cvPDFenglish from "../img/cvs/RuiCVeng.pdf";
 
 function About() {
   const [hoveredHome, setHoveredHome] = useState(false);

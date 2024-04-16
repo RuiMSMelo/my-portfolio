@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import cvIcon from "../img/cviconwhite.jpg";
-import cvPDFspanish from "../img/RuiCVes.pdf";
+import cvPDFspanish from "../img/cvs/RuiCVes.pdf";
+import spainFlagIcon from "../img/spain_round_icon_256.png";
+import ukFlagIcon from "../img/united_kingdom_round_icon_256.png";
 
 function AboutES() {
   const [hoveredHome, setHoveredHome] = useState(false);
