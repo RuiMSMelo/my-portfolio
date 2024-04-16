@@ -20,19 +20,19 @@ function Proyectos() {
         </h2>
       </Link>
       {/* <Link to='/tesla'><h3>Tesla</h3></Link> */}
-      <Link to="/soundspace">
+      <Link to="/es/soundspace">
         <h3>ESPAINSoundSpace</h3>
       </Link>
-      <Link to="/clothesStore">
+      <Link to="/es/clothesStore">
         <h3>Clothes Store</h3>
       </Link>
-      <Link to="/bookzone">
+      <Link to="/es/bookzone">
         <h3>Bookzone</h3>
       </Link>
-      <Link to="/sharkattack">
+      <Link to="/es/sharkattack">
         <h3>Sharkattack</h3>
       </Link>
-      <Link to="/pluginflow">
+      <Link to="/es/pluginflow">
         <h3>Plugin Flow</h3>
       </Link>
     </div>
