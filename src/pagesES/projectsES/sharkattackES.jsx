@@ -31,14 +31,13 @@ function SharkattackES() {
         </div>
         <br />
         <br />
-        SPAIN A simple game where you control a shark, in a 2d screen, and need
-        to eat all the food you can without getting caught by the awful,
-        nature-disturbing scuba divers.
+        Un juego simple donde controlas a un tiburón en una pantalla 2D y
+        necesitas comer toda la comida que puedas sin ser atrapado por los
+        desagradables buceadores que perturban la naturaleza. <br />
         <br />
         <br />
         <br />
-        <br />
-        Website:
+        Sitio web:
         <br />
         <Link
           to="https://ruimsmelo.github.io/shark-attack/"
@@ -59,7 +58,7 @@ function SharkattackES() {
         </Link>
       </p>
       <Link to="/es/proyectos" className="back-to-projects">
-        <span>Back to projects</span>
+        <span>De vuelta a los proyectos</span>
       </Link>
     </div>
   );

@@ -41,22 +41,23 @@ function Contactame() {
           {hoveredHome ? "inicio" : "rui"}
         </h2>
       </Link>
-      <h1>ESPAINLet's work together!</h1>
+      <h1>¡Trabajemos juntos!</h1>
       <p>
-        Thank you for visiting my portfolio!
+        ¡Gracias por visitar mi portafolio!
         <br />
         <br />
         <br />
-        Whether you're here with a specific project in mind, have questions
-        about my experience and skills, or simply want to connect and say hello,
-        I'm here and eager to hear from you.
+        Ya sea que estés aquí con un proyecto específico en mente, tengas
+        preguntas sobre mi experiencia y habilidades, o simplemente quieras
+        conectar y saludar, estoy aquí y ansioso por escucharte.
         <br />
         <br />
-        Your feedback, inquiries, and collaboration opportunities are all
-        valuable to me.
+        ¡Tu feedback, consultas y oportunidades de colaboración son muy valiosas
+        para mí!
         <br />
         <br />
-        Don't hesitate in reaching out through any of the platforms below:
+        No dudes en comunicarte a través de cualquiera de las plataformas a
+        continuación:
         <br />
         <br />
         <br />
@@ -68,18 +69,18 @@ function Contactame() {
           onMouseLeave={handleHoverEmail}
         >
           {hoveredEmail
-            ? "click to copy email to clipboard"
+            ? "Haz clic para copiar el correo electrónico"
             : "ruimsmelo@gmail.com"}
         </span>
         <br />
-        Phone:
+        Teléfono:
         <br />
         +351 91 737 86 31
         <br />
         <br />
         <br />
-        Connect with me on LinkedIn and GitHub to stay updated on my latest
-        projects and professional adventures!
+        ¡Conéctate conmigo en LinkedIn y GitHub para mantenerte al día sobre mis
+        últimos proyectos y aventuras profesionales!
         <br />
         <br />
         <div className="icons-div">

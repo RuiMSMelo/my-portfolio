@@ -33,15 +33,17 @@ function ClothesStoreES() {
         </div>
         <br />
         <br />
-        ESPAIN I built this user-friendly online shopping website using the
-        FakeStoreAPI. With a fully functional cart system implemented.
+        Construí este sitio web de compras en línea fácil de usar utilizando la
+        FakeStoreAPI, con un sistema de carrito completamente funcional
+        implementado.
         <br />
-        It's a great beginner-mid level project for React developers.
+        Es un gran proyecto de nivel principiante-intermedio para
+        desarrolladores de React.
         <br />
         <br />
         <br />
         <br />
-        Website:
+        Sitio web:
         <br />
         <Link
           to="https://ruimsmelo.github.io/clothesStore/"
@@ -62,7 +64,7 @@ function ClothesStoreES() {
         </Link>
       </p>
       <Link to="/es/proyectos" className="back-to-projects">
-        <span>Back to projects</span>
+        <span>De vuelta a los proyectos</span>
       </Link>
     </div>
   );

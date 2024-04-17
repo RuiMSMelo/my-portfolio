@@ -2,8 +2,6 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import cvIcon from "../img/cviconwhite.jpg";
 import cvPDFspanish from "../img/cvs/RuiCVes.pdf";
-import spainFlagIcon from "../img/spain_round_icon_256.png";
-import ukFlagIcon from "../img/united_kingdom_round_icon_256.png";
 
 function AboutES() {
   const [hoveredHome, setHoveredHome] = useState(false);
@@ -23,37 +21,39 @@ function AboutES() {
           {hoveredHome ? "inicio" : "rui"}
         </h2>
       </Link>
-      <h1>ESPAIN design & build digital experiences</h1>
+      <h1>Diseño y construyo experiencias digitales.</h1>
       <p>
-        Hey, I'm Rui Serôdio Melo, a web developer with a profound connection to
-        the ocean.
+        Hola, me llamo Rui Serôdio Melo, soy un desarrollador web con una
+        profunda conexión con el océano.
         <br />
         <br />
-        Originally from Portugal and now living in Madrid, I bring my love for
-        the digital world with a background rooted in marine biology and several
-        years of diving experience.
+        Originario de Portugal y ahora viviendo en Madrid, llevo mi amor por el
+        mundo digital con una formación en biología marina y varios años de
+        experiencia en buceo.
         <br />
         <br />
-        Fluent in Portuguese, English, and Spanish.
+        Fluido en portugués, inglés y español.
         {/*, I bring a multilingual touch to my work.*/}
         <br />
         <br />
         <br />
-        This portfolio is where I showcase my projects and continuously improve
-        them.
         <br />
-        In the future, I'll also feature projects I'm currently working on. It's
-        a space that evolves with my journey, reflecting my commitment to
-        progress in web development.
+        Este portafolio es donde muestro mis proyectos y continuamente los
+        mejoro.
         <br />
         <br />
-        <br />
-        <br />
-        Let's create together!
+        En el futuro, también incluiré proyectos en los que esté trabajando
+        actualmente. Es un espacio que evoluciona con mi trayectoria, reflejando
+        mi compromiso con el progreso en el desarrollo web.
         <br />
         <br />
         <br />
-        My CV in spanish:
+        <br />
+        ¡Creemos juntos!
+        <br />
+        <br />
+        <br />
+        Mi currículum en español:
         <br />
         <br />
         <a

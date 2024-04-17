@@ -31,10 +31,19 @@ function Pluginflow() {
         During my intership with Nervecenter I was tasked to develop this
         homepage for their new website.
         <br />
+        As you can check it out here:
+        <Link
+          to="https://nervecenter.ai/"
+          target="_blank"
+          className="links-to-websites"
+        >
+          https://nervecenter.ai/
+        </Link>
         <br />
         <br />
         <br />
-        Website:
+        <br />
+        Sitio web:
         <br />
         <Link
           to="https://ruimsmelo.github.io/NerveCenter-Homepage/"

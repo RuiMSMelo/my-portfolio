@@ -42,14 +42,14 @@ function BookzoneES() {
         </div>
         <br />
         <br />
-        ESPAINWith just 5 days to develop this project, we decided to keep it
-        simple but efficient and made this web application where the user can
-        store already read and unread books.
+        Con solo 5 días para desarrollar este proyecto, decidimos mantenerlo
+        simple pero eficiente y creamos esta aplicación web donde el usuario
+        puede almacenar libros ya leídos y no leídos.
         <br />
         <br />
         <br />
         <br />
-        Website:
+        Sitio web:
         <br />
         <Link
           to="https://bookzone.adaptable.app/"
@@ -70,7 +70,7 @@ function BookzoneES() {
         </Link>
       </p>
       <Link to="/es/proyectos" className="back-to-projects">
-        <span>Back to projects</span>
+        <span>De vuelta a los proyectos</span>
       </Link>
     </div>
   );

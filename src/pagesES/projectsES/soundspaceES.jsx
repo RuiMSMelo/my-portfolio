@@ -47,14 +47,14 @@ function SoundspaceES() {
         </div>
         <br />
         <br />
-        SPAIN soundSpace is an innovative online platform designed to bring
-        together individuals in the music industry, fostering a vibrant
-        community that thrives on collaboration and connection.
+        soundSpace es una plataforma en línea innovadora diseñada para reunir a
+        individuos en la industria de la música, fomentando una comunidad
+        vibrante que prospera en la colaboración y la conexión.
         <br />
         <br />
         <br />
         <br />
-        Website:
+        Sitio web:
         <br />
         <Link
           to="https://lively-sprite-942da6.netlify.app/"
@@ -82,7 +82,7 @@ function SoundspaceES() {
         </Link>
       </p>
       <Link to="/es/proyectos" className="back-to-projects">
-        <span>Back to projects</span>
+        <span>De vuelta a los proyectos</span>
       </Link>
     </div>
   );

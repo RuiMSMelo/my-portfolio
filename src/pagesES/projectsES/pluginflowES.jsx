@@ -28,9 +28,17 @@ function PluginflowES() {
         </div>
         <br />
         <br />
-        SPAIN During my intership with Nervecenter I was tasked to develop this
-        homepage for their new website.
+        Durante mi pasantía en Nervecenter, me asignaron desarrollar esta página
+        de inicio para su nuevo sitio web.
         <br />
+        Como puedes comprobar aquí:
+        <Link
+          to="https://nervecenter.ai/"
+          target="_blank"
+          className="links-to-websites"
+        >
+          https://nervecenter.ai/
+        </Link>
         <br />
         <br />
         <br />
@@ -55,7 +63,7 @@ function PluginflowES() {
         </Link>
       </p>
       <Link to="/es/proyectos" className="back-to-projects">
-        <span>Back to projects</span>
+        <span>De vuelta a los proyectos</span>
       </Link>
     </div>
   );

@@ -21,7 +21,7 @@ function Proyectos() {
       </Link>
       {/* <Link to='/tesla'><h3>Tesla</h3></Link> */}
       <Link to="/es/soundspace">
-        <h3>ESPAINSoundSpace</h3>
+        <h3>SoundSpace</h3>
       </Link>
       <Link to="/es/clothesStore">
         <h3>Clothes Store</h3>
