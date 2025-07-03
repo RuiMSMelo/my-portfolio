@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.c7b63b71.css",
-    "main.js": "/my-portfolio/static/js/main.162ed175.js",
+    "main.js": "/my-portfolio/static/js/main.c5b83fd5.js",
     "static/js/787.dbbd0357.chunk.js": "/my-portfolio/static/js/787.dbbd0357.chunk.js",
     "static/media/openoceanfinal.mp4": "/my-portfolio/static/media/openoceanfinal.c1e328da489eef33d261.mp4",
-    "static/media/CV_eng.pdf": "/my-portfolio/static/media/CV_eng.17b0ed5d5d16433bec0b.pdf",
     "static/media/githubwhite.png": "/my-portfolio/static/media/githubwhite.4a64d65112c0040bf369.png",
+    "static/media/CV_eng.pdf": "/my-portfolio/static/media/CV_eng.56c2aa12250810d9af04.pdf",
     "static/media/LinkedIn_icon.svg.png": "/my-portfolio/static/media/LinkedIn_icon.svg.9dfdc9701c0e1eb622bb.png",
     "static/media/cviconwhite.jpg": "/my-portfolio/static/media/cviconwhite.9ea31e14f594acdb469b.jpg",
     "static/media/expressiconwhite.png": "/my-portfolio/static/media/expressiconwhite.d172deb9d8875d4be1d7.png",
@@ -17,11 +17,11 @@
     "index.html": "/my-portfolio/index.html",
     "static/media/mongodbicon.svg": "/my-portfolio/static/media/mongodbicon.d18b3c0417bd19d758ccab324a5a44a5.svg",
     "main.c7b63b71.css.map": "/my-portfolio/static/css/main.c7b63b71.css.map",
-    "main.162ed175.js.map": "/my-portfolio/static/js/main.162ed175.js.map",
+    "main.c5b83fd5.js.map": "/my-portfolio/static/js/main.c5b83fd5.js.map",
     "787.dbbd0357.chunk.js.map": "/my-portfolio/static/js/787.dbbd0357.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c7b63b71.css",
-    "static/js/main.162ed175.js"
+    "static/js/main.c5b83fd5.js"
   ]
 }
