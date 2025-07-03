@@ -19,40 +19,54 @@ function Homepage() {
         setHoveredRui(!hoveredRui)
     }
 
+    const [videoLoaded, setVideoLoaded] = useState(false)
+
     return (
-        <div className='homepage-container'>
-            <div className='video-container'>
-                <video muted autoPlay loop className='video-background'>
-                    <source src={oceanVideo} type='video/mp4' />
-                </video>
+        <>
+            <div
+                className={`homepage-container ${
+                    videoLoaded ? 'fade-in' : 'hidden'
+                }`}
+            >
+                <div className='video-container'>
+                    <video
+                        muted
+                        autoPlay
+                        loop
+                        className='video-background'
+                        onLoadedData={() => setVideoLoaded(true)}
+                    >
+                        <source src={oceanVideo} type='video/mp4' />
+                    </video>
+                </div>
+                <div className='homepage-text-container'>
+                    <Link to='/about'>
+                        <h1
+                            onMouseEnter={handleHoverHello}
+                            onMouseLeave={handleHoverHello}
+                        >
+                            {hoveredHello ? 'About' : 'Hello.'}
+                        </h1>
+                    </Link>
+                    <Link to='/projects'>
+                        <h1
+                            onMouseEnter={handleHoverIm}
+                            onMouseLeave={handleHoverIm}
+                        >
+                            {hoveredIm ? 'Projects' : "I'm"}
+                        </h1>
+                    </Link>
+                    <Link to='/contacts'>
+                        <h1
+                            onMouseEnter={handleHoverRui}
+                            onMouseLeave={handleHoverRui}
+                        >
+                            {hoveredRui ? 'Contact me' : 'Rui Melo'}
+                        </h1>
+                    </Link>
+                </div>
             </div>
-            <div className='homepage-text-container'>
-                <Link to='/about'>
-                    <h1
-                        onMouseEnter={handleHoverHello}
-                        onMouseLeave={handleHoverHello}
-                    >
-                        {hoveredHello ? 'About' : 'Hello.'}
-                    </h1>
-                </Link>
-                <Link to='/projects'>
-                    <h1
-                        onMouseEnter={handleHoverIm}
-                        onMouseLeave={handleHoverIm}
-                    >
-                        {hoveredIm ? 'Projects' : "I'm"}
-                    </h1>
-                </Link>
-                <Link to='/contacts'>
-                    <h1
-                        onMouseEnter={handleHoverRui}
-                        onMouseLeave={handleHoverRui}
-                    >
-                        {hoveredRui ? 'Contact me' : 'Rui Melo'}
-                    </h1>
-                </Link>
-            </div>
-        </div>
+        </>
     )
 }
 
