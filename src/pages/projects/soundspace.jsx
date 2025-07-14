@@ -14,31 +14,83 @@ function Soundspace() {
 
     return (
         <div className='allpages projects-div project'>
-            <Link to='/'><h2 onMouseEnter={handleHoverHome} onMouseLeave={handleHoverHome} className='home-button'>
-                {hoveredHome ? 'home' : 'rui'}
-            </h2></Link>
+            <Link to='/'>
+                <h2
+                    onMouseEnter={handleHoverHome}
+                    onMouseLeave={handleHoverHome}
+                    className='home-button'
+                >
+                    {hoveredHome ? 'home' : 'rui'}
+                </h2>
+            </Link>
             <p>
                 <div className='madewith-div'>
-                    <img src={reacticon} className='small-icons' alt='React' title='React'/>
-                    <img src={cssicon} className='small-icons' alt='CSS' title='CSS'/>
-                    <img src={nodejsicon} className='small-icons' alt='NodeJS' title='NodeJS'/>
-                    <img src={mongodbicon} className='small-icons' alt='MongoDB' title='MongoDB'/>
+                    <img
+                        src={reacticon}
+                        className='small-icons'
+                        alt='React'
+                        title='React'
+                    />
+                    <img
+                        src={cssicon}
+                        className='small-icons'
+                        alt='CSS'
+                        title='CSS'
+                    />
+                    <img
+                        src={nodejsicon}
+                        className='small-icons'
+                        alt='NodeJS'
+                        title='NodeJS'
+                    />
+                    <img
+                        src={mongodbicon}
+                        className='small-icons'
+                        alt='MongoDB'
+                        title='MongoDB'
+                    />
                 </div>
-                <br /><br />
-                soundSpace is an innovative online platform designed to bring together individuals in the music industry, fostering a vibrant community that thrives on collaboration and connection.
-                <br /><br /><br /><br />
+                <br />
+                <br />
+                soundSpace is an innovative online platform designed to bring
+                together individuals in the music industry, fostering a vibrant
+                community that thrives on collaboration and connection.
+                <br />
+                <br />
+                <br />
+                <br />
                 Website:
                 <br />
-                <Link to='https://lively-sprite-942da6.netlify.app/' target='_blank' className='links-to-websites'><span>https://lively-sprite-942da6.netlify.app/</span></Link>
+                <Link
+                    to='https://lively-sprite-942da6.netlify.app/'
+                    target='_blank'
+                    className='links-to-websites'
+                >
+                    <span>https://lively-sprite-942da6.netlify.app/</span>
+                </Link>
                 <br />
                 Github:
                 <br />
-                <Link to='https://github.com/RuiMSMelo/soundSpaceFrontend' target='_blank' className='links-to-websites'><span>Frontend</span></Link>
-                <Link to='https://github.com/RuiMSMelo/soundSpaceBackend' target='_blank' className='links-to-websites'><span>Backend</span></Link>
+                <Link
+                    to='https://github.com/RuiMSMelo/soundSpaceFrontend'
+                    target='_blank'
+                    className='links-to-websites'
+                >
+                    <span>Frontend</span>
+                </Link>
+                <Link
+                    to='https://github.com/RuiMSMelo/soundSpaceBackend'
+                    target='_blank'
+                    className='links-to-websites'
+                >
+                    <span>Backend</span>
+                </Link>
             </p>
-                <Link to='/projects' className='back-to-projects'><span>Back to projects</span></Link>
+            <Link to='/projects' className='back-to-projects'>
+                <span>Back to projects</span>
+            </Link>
         </div>
-    );
+    )
 }
 
-export default Soundspace;
+export default Soundspace

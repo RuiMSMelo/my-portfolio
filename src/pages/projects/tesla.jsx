@@ -12,28 +12,63 @@ function Tesla() {
 
     return (
         <div className='allpages projects-div project'>
-            <Link to='/'><h2 onMouseEnter={handleHoverHome} onMouseLeave={handleHoverHome} className='home-button'>
-                {hoveredHome ? 'home' : 'rui'}
-            </h2></Link>
+            <Link to='/'>
+                <h2
+                    onMouseEnter={handleHoverHome}
+                    onMouseLeave={handleHoverHome}
+                    className='home-button'
+                >
+                    {hoveredHome ? 'home' : 'rui'}
+                </h2>
+            </Link>
             <p>
                 <div className='madewith-div'>
-                    <img src={reacticon} className='small-icons' alt='React' title='React'/>
-                    <img src={cssicon} className='small-icons' alt='CSS' title='CSS'/>
+                    <img
+                        src={reacticon}
+                        className='small-icons'
+                        alt='React'
+                        title='React'
+                    />
+                    <img
+                        src={cssicon}
+                        className='small-icons'
+                        alt='CSS'
+                        title='CSS'
+                    />
                 </div>
-                <br /><br />
-                A copy of Tesla's website - to further improve my frontend development skills.
-                <br /><br /><br /><br />
+                <br />
+                <br />
+                A copy of Tesla's website - to further improve my frontend
+                development skills.
+                <br />
+                <br />
+                <br />
+                <br />
                 Website:
                 <br />
-                <Link to='https://ruimsmelo.github.io/tesla-clone/' target='_blank' className='links-to-websites'><span>https://ruimsmelo.github.io/tesla-clone/</span></Link>
+                <Link
+                    to='https://ruimsmelo.github.io/tesla-clone/'
+                    target='_blank'
+                    className='links-to-websites'
+                >
+                    <span>https://ruimsmelo.github.io/tesla-clone/</span>
+                </Link>
                 <br />
                 Github:
                 <br />
-                <Link to='https://github.com/RuiMSMelo/tesla-clone' target='_blank' className='links-to-websites'><span>https://github.com/RuiMSMelo/tesla-clone</span></Link>
+                <Link
+                    to='https://github.com/RuiMSMelo/tesla-clone'
+                    target='_blank'
+                    className='links-to-websites'
+                >
+                    <span>https://github.com/RuiMSMelo/tesla-clone</span>
+                </Link>
             </p>
-                <Link to='/projects' className='back-to-projects'><span>Back to projects</span></Link>
+            <Link to='/projects' className='back-to-projects'>
+                <span>Back to projects</span>
+            </Link>
         </div>
-    );
+    )
 }
 
-export default Tesla;
+export default Tesla

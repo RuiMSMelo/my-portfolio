@@ -1,225 +1,246 @@
-body, html {
-  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  margin: 0;
-  padding: 0;
-  height: 100%;
+body,
+html {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+        Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+        sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
 }
 a {
-  color: white;
-  text-decoration: none;
-  display: inline-block;
-  width: auto;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    width: auto;
+}
+.hidden {
+    opacity: 0;
+    background-color: black;
+    transition: opacity 0.75s ease-in;
+}
+
+.fade-in {
+    opacity: 1;
+    background-color: black;
+    transition: opacity 0.75s ease-in;
 }
 
 .homepage-container {
-  position: relative;
-  height: 100vh;
-  overflow: hidden;
+    background-color: black;
+    z-index: 0;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
 }
 
 .video-container {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  z-index: -1;
+    z-index: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
 }
 
 .video-background {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .homepage-text-container {
-  margin: 0;
-  color: white;
-  font-size: 4rem;
-  position: absolute;
-  left: 15%;
-  height: 100vh;
-  width: 101%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+    z-index: 2;
+    margin: 0;
+    color: white;
+    font-size: 4rem;
+    position: absolute;
+    left: 15%;
+    height: 100vh;
+    width: 101%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .homepage-text-container * * {
-  display: inline-block;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+    display: inline-block;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 1;
 }
 
 .homepage-text-container h1 {
-  display: inline-block;
+    display: inline-block;
 }
 .homepage-text-container a {
-  width: max-content;
+    width: max-content;
 }
 .homepage-text-container h1:hover {
-  color: #00ffff;
-  padding-left: 50px;
-  width: 101%;
-  transition: all 0.3s ease;
+    color: #06bfbf;
+    padding-left: 50px;
+    width: 101%;
+    transition: all 0.3s ease;
 }
 .homepage-text-container h1:not(:hover) {
-  transition: all 0.4s ease;
-  width: 100%
+    transition: all 0.4s ease;
+    width: 100%;
 }
 
 .home-button {
-  color: white;
-  position: fixed;
-  font-size: 1.5rem;
-  top: 10%;
-  margin-left: 75%;
-  transition: all 0.3s ease;
+    color: white;
+    position: fixed;
+    font-size: 1.5rem;
+    top: 10%;
+    margin-left: 75%;
+    transition: all 0.3s ease;
 }
 .home-button:hover {
-  margin-left: 74%;
+    margin-left: 74%;
 }
 .home-button:not(:hover) {
-  transition: all 0.3s ease;
+    transition: all 0.3s ease;
 }
 
 .allpages {
-  background-image: linear-gradient(180deg, rgba(0, 16, 36, 1), rgba(0, 0, 0, 1));
-  margin: 0;
-  color: white;
-  font-size: 3.4rem;
-  padding: 0% 15% 0% 10%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+    background-image: linear-gradient(180deg, rgb(0, 11, 24), rgba(0, 0, 0, 1));
+    margin: 0;
+    color: white;
+    font-size: 3.4rem;
+    padding: 0% 15% 0% 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .allpages p {
-  margin: 0;
-  height: 90vh;
-  font-size: 1.1rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+    margin: 0;
+    height: 90vh;
+    font-size: 1.1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .allpages h1 {
-  margin: 0;
-  height: 100vh;
-  display: flex;
-  align-items: center;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
 }
 
 .icons {
-  max-width: 50px;
-  display: inline-block;
-  transition: all 0.2s ease;
+    max-width: 50px;
+    display: inline-block;
+    transition: all 0.2s ease;
 }
 .icons:hover {
-  scale: 1.15;
+    scale: 1.15;
 }
 .icons:not(:hover) {
-  transition: all 0.2s ease;
+    transition: all 0.2s ease;
 }
 
 .icons-link {
-  display: inline-block;
-  width: fit-content;
+    display: inline-block;
+    width: fit-content;
 }
 
 .icons-div * {
-  margin-right: 5px;
+    margin-right: 5px;
 }
 
 .projects-div {
-  height: 150vh;
-  padding-top: 4%;
-  padding-bottom: 4%;
-  transition: all 1s ease;
-  display: flex;
-  justify-content: space-around;
-  flex-direction: column;
+    height: 150vh;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    transition: all 1s ease;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
 }
-.projects-div h3, .projects-div a:not(:first-child) {
-  display: inline-block;
-  width: max-content;
-  line-height: 1;
-  text-decoration: none;
-  margin: 0;
+.projects-div h3,
+.projects-div a:not(:first-child) {
+    display: inline-block;
+    width: max-content;
+    line-height: 1;
+    text-decoration: none;
+    margin: 0;
 }
 .projects-div a:not(:first-child) {
-  height: max-content;
+    height: max-content;
 }
 .projects-div h3:hover {
-  color: #00ffff;
-  margin-left: 20px;
-  width: 103%;
-  transition: color 0.2s ease, margin-left 0.2s ease, width 0.2s ease;
+    color: #06bfbf;
+    margin-left: 20px;
+    width: 103%;
+    transition: color 0.2s ease, margin-left 0.2s ease, width 0.2s ease;
 }
 .projects-div h3:not(:hover) {
-  transition: color 0.2s ease, margin-left 0.2s ease, width 0.2s ease;
+    transition: color 0.2s ease, margin-left 0.2s ease, width 0.2s ease;
 }
 .projects-div h3 {
-  font-size: 5rem;
+    font-size: 5rem;
 }
 
 .project {
-  margin: 0;
-  padding-top: 0;
-  padding-bottom: 0;
-  height: 100vh;
+    margin: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    height: 100vh;
 }
 
 .links-to-websites {
-  text-decoration: none;
-  color: #00ffff;
+    text-decoration: none;
+    color: #06bfbf;
 }
 
 .small-icons {
-  max-width: 50px;
-  margin: 15px 15px 15px 0px;
+    max-width: 50px;
+    margin: 15px 15px 15px 0px;
 }
 
 .email-span {
-  cursor: pointer;
-  width: max-content;
+    cursor: pointer;
+    width: max-content;
 }
 .email-span:hover {
-  color: #00ffff;
-  padding-left: 2%;
-  transition: all 0.2s ease;
+    color: #06bfbf;
+    padding-left: 2%;
+    transition: all 0.2s ease;
 }
 .email-span:not(:hover) {
-  transition: all 0.2s ease;
+    transition: all 0.2s ease;
 }
 
 .links-to-websites {
-  width: max-content;
+    width: max-content;
 }
 .links-to-websites:hover {
-  color: #00ffff;
-  padding-left: 2%;
-  transition: all 0.2s ease;
+    color: #06bfbf;
+    padding-left: 2%;
+    transition: all 0.2s ease;
 }
 .links-to-websites:not(:hover) {
-  transition: all 0.2s ease;
+    transition: all 0.2s ease;
 }
 
 .back-to-projects {
-  position: absolute;
-  left: 80%;
-  top: 90%;
-  font-size: 1rem;
+    position: absolute;
+    left: 80%;
+    top: 90%;
+    font-size: 1rem;
 }
 .back-to-projects:hover {
-  color: #00ffff;
-  padding-left: 1%;
-  width: 101%;
-  transition: all 0.2s ease;
+    color: #06bfbf;
+    padding-left: 1%;
+    width: 101%;
+    transition: all 0.2s ease;
 }
 .back-to-projects:not(:hover) {
-  transition: all 0.2s ease;
+    transition: all 0.2s ease;
 }
