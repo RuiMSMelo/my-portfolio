@@ -23,12 +23,13 @@ function Homepage() {
 
     return (
         <>
-            <div
-                className={`homepage-container ${
-                    videoLoaded ? 'fade-in' : 'hidden'
-                }`}
-            >
-                <div className='video-container'>
+            {!videoLoaded && <div className='black-screen' />}{' '}
+            <div className='homepage-container'>
+                <div
+                    className={`video-container ${
+                        videoLoaded ? 'fade-in' : 'hidden'
+                    }`}
+                >
                     <video
                         muted
                         autoPlay
@@ -39,6 +40,7 @@ function Homepage() {
                         <source src={oceanVideo} type='video/mp4' />
                     </video>
                 </div>
+
                 <div className='homepage-text-container'>
                     <Link to='/about'>
                         <h1

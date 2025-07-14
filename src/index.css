@@ -7,24 +7,26 @@ html {
     padding: 0;
     height: 100%;
 }
-.hidden {
-    opacity: 0;
-    transition: opacity 0.75s ease-in;
-}
-
-.fade-in {
-    opacity: 1;
-    transition: opacity 0.75s ease-in;
-}
-
 a {
     color: white;
     text-decoration: none;
     display: inline-block;
     width: auto;
 }
+.hidden {
+    opacity: 0;
+    background-color: black;
+    transition: opacity 0.75s ease-in;
+}
+
+.fade-in {
+    opacity: 1;
+    background-color: black;
+    transition: opacity 0.75s ease-in;
+}
 
 .homepage-container {
+    background-color: black;
     z-index: 0;
     position: relative;
     height: 100vh;
@@ -33,7 +35,7 @@ a {
 }
 
 .video-container {
-    z-index: 1;
+    z-index: 0;
     position: absolute;
     top: 0;
     left: 0;
@@ -50,6 +52,7 @@ a {
 }
 
 .homepage-text-container {
+    z-index: 2;
     margin: 0;
     color: white;
     font-size: 4rem;
@@ -68,6 +71,7 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    z-index: 1;
 }
 
 .homepage-text-container h1 {
@@ -77,7 +81,7 @@ a {
     width: max-content;
 }
 .homepage-text-container h1:hover {
-    color: #00ffff;
+    color: #06bfbf;
     padding-left: 50px;
     width: 101%;
     transition: all 0.3s ease;
@@ -103,11 +107,7 @@ a {
 }
 
 .allpages {
-    background-image: linear-gradient(
-        180deg,
-        rgba(0, 16, 36, 1),
-        rgba(0, 0, 0, 1)
-    );
+    background-image: linear-gradient(180deg, rgb(0, 11, 24), rgba(0, 0, 0, 1));
     margin: 0;
     color: white;
     font-size: 3.4rem;
@@ -175,7 +175,7 @@ a {
     height: max-content;
 }
 .projects-div h3:hover {
-    color: #00ffff;
+    color: #06bfbf;
     margin-left: 20px;
     width: 103%;
     transition: color 0.2s ease, margin-left 0.2s ease, width 0.2s ease;
@@ -196,7 +196,7 @@ a {
 
 .links-to-websites {
     text-decoration: none;
-    color: #00ffff;
+    color: #06bfbf;
 }
 
 .small-icons {
@@ -209,7 +209,7 @@ a {
     width: max-content;
 }
 .email-span:hover {
-    color: #00ffff;
+    color: #06bfbf;
     padding-left: 2%;
     transition: all 0.2s ease;
 }
@@ -221,7 +221,7 @@ a {
     width: max-content;
 }
 .links-to-websites:hover {
-    color: #00ffff;
+    color: #06bfbf;
     padding-left: 2%;
     transition: all 0.2s ease;
 }
@@ -236,7 +236,7 @@ a {
     font-size: 1rem;
 }
 .back-to-projects:hover {
-    color: #00ffff;
+    color: #06bfbf;
     padding-left: 1%;
     width: 101%;
     transition: all 0.2s ease;
