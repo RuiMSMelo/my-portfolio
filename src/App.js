@@ -6,7 +6,7 @@ import Contacts from './pages/Contacts'
 import Tesla from './pages/projects/tesla'
 import Soundspace from './pages/projects/soundspace'
 import Bananas from './pages/projects/bananas'
-import Sharkattack from './pages/projects/sharkattack'
+import Marblegame from './pages/projects/marblegame'
 import Pluginflow from './pages/projects/pluginflow'
 import ClothesStore from './pages/projects/clothesstore'
 
@@ -22,7 +22,7 @@ function App() {
             <Route path='/tesla' element={<Tesla />} />
             <Route path='/soundspace' element={<Soundspace />} />
             <Route path='/bananas' element={<Bananas />} />
-            <Route path='/sharkattack' element={<Sharkattack />} />
+            <Route path='/marblegame' element={<Marblegame />} />
             <Route path='/pluginflow' element={<Pluginflow />} />
             <Route path='/clothesstore' element={<ClothesStore />} />
         </Routes>

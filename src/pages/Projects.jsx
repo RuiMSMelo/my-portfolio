@@ -29,8 +29,8 @@ function Projects() {
             <Link to='/bananas'>
                 <h3>Bananas</h3>
             </Link>
-            <Link to='/sharkattack'>
-                <h3>Sharkattack</h3>
+            <Link to='/marblegame'>
+                <h3>Marble Game</h3>
             </Link>
             <Link to='/pluginflow'>
                 <h3>Plugin Flow</h3>
