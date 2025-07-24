@@ -9,6 +9,7 @@ import Bananas from './pages/projects/bananas'
 import Marblegame from './pages/projects/marblegame'
 import Pluginflow from './pages/projects/pluginflow'
 import ClothesStore from './pages/projects/clothesstore'
+import Seashader from './pages/projects/seashader'
 
 function App() {
     return (
@@ -25,6 +26,7 @@ function App() {
             <Route path='/marblegame' element={<Marblegame />} />
             <Route path='/pluginflow' element={<Pluginflow />} />
             <Route path='/clothesstore' element={<ClothesStore />} />
+            <Route path='/seashader' element={<Seashader />} />
         </Routes>
     )
 }

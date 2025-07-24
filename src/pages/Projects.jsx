@@ -23,14 +23,17 @@ function Projects() {
             <Link to='/soundspace'>
                 <h3>SoundSpace</h3>
             </Link>
-            <Link to='/clothesStore'>
-                <h3>Clothes Store</h3>
+            <Link to='/marblegame'>
+                <h3>Marble Game</h3>
             </Link>
             <Link to='/bananas'>
                 <h3>Bananas</h3>
             </Link>
-            <Link to='/marblegame'>
-                <h3>Marble Game</h3>
+            <Link to='/seashader'>
+                <h3>Sea Shader</h3>
+            </Link>
+            <Link to='/clothesStore'>
+                <h3>Clothes Store</h3>
             </Link>
             <Link to='/pluginflow'>
                 <h3>Plugin Flow</h3>
