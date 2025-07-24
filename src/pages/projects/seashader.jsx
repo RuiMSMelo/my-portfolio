@@ -4,8 +4,10 @@ import htmlicon from '../../img/htmlicon.svg'
 import cssicon from '../../img/cssicon.svg'
 import expressicon from '../../img/expressiconwhite.png'
 import mongodbicon from '../../img/mongodbicon.svg'
+import threejsicon from '../../img/threejsicon.png'
+import opengl from '../../img/opengl.png'
 
-function Bookzone() {
+function Seashader() {
     const [hoveredHome, setHoveredHome] = useState(false)
 
     const handleHoverHome = () => {
@@ -24,18 +26,18 @@ function Bookzone() {
                 </h2>
             </Link>
             <p>
-                <div className='madewith-div'>
+                {/* <div className='madewith-div'>
                     <img
-                        src={htmlicon}
+                        src={threejsicon}
                         className='small-icons'
-                        alt='HTML'
-                        title='HTML'
+                        alt='THREEJS'
+                        title='THREEJS'
                     />
                     <img
-                        src={cssicon}
+                        src={opengl}
                         className='small-icons'
-                        alt='CSS'
-                        title='CSS'
+                        alt='opengl'
+                        title='opengl'
                     />
                     <img
                         src={expressicon}
@@ -49,12 +51,10 @@ function Bookzone() {
                         alt='MongoDB'
                         title='MongoDB'
                     />
-                </div>
+                </div> */}
                 <br />
                 <br />
-                With just 5 days to develop this project, we decided to keep it
-                simple but efficient and made this web application where the
-                user can store already read and unread books.
+                A shader project made with GLSL of the sea at night
                 <br />
                 <br />
                 <br />
@@ -62,21 +62,21 @@ function Bookzone() {
                 Website:
                 <br />
                 <Link
-                    to='https://bookzone.adaptable.app/'
+                    to='https://ruimsmelo.github.io/3jsjourney_4_10/'
                     target='_blank'
                     className='links-to-websites'
                 >
-                    <span>https://bookzone.adaptable.app/</span>
+                    <span>https://ruimsmelo.github.io/3jsjourney_4_10/</span>
                 </Link>
                 <br />
                 Github:
                 <br />
                 <Link
-                    to='https://github.com/RuiMSMelo/bookzone'
+                    to='https://github.com/RuiMSMelo/3jsjourney_4_10'
                     target='_blank'
                     className='links-to-websites'
                 >
-                    <span>https://github.com/RuiMSMelo/bookzone</span>
+                    <span>https://github.com/RuiMSMelo/3jsjourney_4_10</span>
                 </Link>
             </p>
             <Link to='/projects' className='back-to-projects'>
@@ -86,4 +86,4 @@ function Bookzone() {
     )
 }
 
-export default Bookzone
+export default Seashader

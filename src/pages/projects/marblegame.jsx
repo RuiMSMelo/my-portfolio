@@ -21,19 +21,17 @@ function Sharkattack() {
                 </h2>
             </Link>
             <p>
-                <div className='madewith-div'>
+                {/* <div className='madewith-div'>
                     <img
                         src={javascripticon}
                         className='small-icons'
                         alt='Javascript'
                         title='Javascript'
                     />
-                </div>
+                </div> */}
                 <br />
                 <br />
-                A simple game where you control a shark, in a 2d screen, and
-                need to eat all the food you can without getting caught by the
-                awful, nature-disturbing scuba divers.
+                A game made with Three.js
                 <br />
                 <br />
                 <br />
@@ -41,21 +39,25 @@ function Sharkattack() {
                 Website:
                 <br />
                 <Link
-                    to='https://ruimsmelo.github.io/shark-attack/'
+                    to='https://ruimsmelo.github.io/3jsjourney_7_14_game/'
                     target='_blank'
                     className='links-to-websites'
                 >
-                    <span>https://ruimsmelo.github.io/shark-attack/</span>
+                    <span>
+                        https://ruimsmelo.github.io/3jsjourney_7_14_game/
+                    </span>
                 </Link>
                 <br />
                 Github:
                 <br />
                 <Link
-                    to='https://github.com/RuiMSMelo/shark-attack'
+                    to='https://github.com/RuiMSMelo/3jsjourney_7_14_game'
                     target='_blank'
                     className='links-to-websites'
                 >
-                    <span>https://github.com/RuiMSMelo/shark-attack</span>
+                    <span>
+                        https://github.com/RuiMSMelo/3jsjourney_7_14_game
+                    </span>
                 </Link>
             </p>
             <Link to='/projects' className='back-to-projects'>

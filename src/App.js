@@ -5,10 +5,11 @@ import About from './pages/About'
 import Contacts from './pages/Contacts'
 import Tesla from './pages/projects/tesla'
 import Soundspace from './pages/projects/soundspace'
-import Bookzone from './pages/projects/bookzone'
-import Sharkattack from './pages/projects/sharkattack'
+import Bananas from './pages/projects/bananas'
+import Marblegame from './pages/projects/marblegame'
 import Pluginflow from './pages/projects/pluginflow'
 import ClothesStore from './pages/projects/clothesstore'
+import Seashader from './pages/projects/seashader'
 
 function App() {
     return (
@@ -21,10 +22,11 @@ function App() {
             <Route path='/contacts' element={<Contacts />} />
             <Route path='/tesla' element={<Tesla />} />
             <Route path='/soundspace' element={<Soundspace />} />
-            <Route path='/bookzone' element={<Bookzone />} />
-            <Route path='/sharkattack' element={<Sharkattack />} />
+            <Route path='/bananas' element={<Bananas />} />
+            <Route path='/marblegame' element={<Marblegame />} />
             <Route path='/pluginflow' element={<Pluginflow />} />
             <Route path='/clothesstore' element={<ClothesStore />} />
+            <Route path='/seashader' element={<Seashader />} />
         </Routes>
     )
 }
