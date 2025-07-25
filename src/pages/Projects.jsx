@@ -32,6 +32,9 @@ function Projects() {
             <Link to='/seashader'>
                 <h3>Sea Shader</h3>
             </Link>
+            <Link to='/earth'>
+                <h3>Earth</h3>
+            </Link>
             <Link to='/clothesStore'>
                 <h3>Clothes Store</h3>
             </Link>
