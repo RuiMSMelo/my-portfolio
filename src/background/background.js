@@ -9,6 +9,8 @@ import {
     RenderPass,
 } from 'postprocessing'
 
+console.log(waterFragmentShader)
+
 /**
  * Base
  */
@@ -27,6 +29,11 @@ const scene = new THREE.Scene()
 const waterGeometry = new THREE.PlaneGeometry(30, 30, 1024, 1024)
 waterGeometry.deleteAttribute('normal') // not using these
 waterGeometry.deleteAttribute('uv') // not using these
+
+// Colors
+const debugObject = {}
+debugObject.depthColor = '#151c37'
+debugObject.surfaceColor = '#0b3c20'
 
 // Material
 const waterMaterial = new THREE.ShaderMaterial({

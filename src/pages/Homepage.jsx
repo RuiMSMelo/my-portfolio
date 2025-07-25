@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import oceanVideo from '../img/openoceanfinal.mp4'
+import background from '../background/background'
 
 function Homepage() {
     const [hoveredHello, setHoveredHello] = useState(false)
