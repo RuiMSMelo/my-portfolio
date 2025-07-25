@@ -1,7 +1,5 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { Link } from 'react-router-dom'
-import cssicon from '../../img/cssicon.svg'
-import reacticon from '../../img/reacticon.svg'
 
 function ClothesStore() {
     const [hoveredHome, setHoveredHome] = useState(false)

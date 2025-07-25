@@ -1,11 +1,5 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
-import htmlicon from '../../img/htmlicon.svg'
-import cssicon from '../../img/cssicon.svg'
-import expressicon from '../../img/expressiconwhite.png'
-import mongodbicon from '../../img/mongodbicon.svg'
-import threejsicon from '../../img/threejsicon.png'
-import opengl from '../../img/opengl.png'
 
 function Bookzone() {
     const [hoveredHome, setHoveredHome] = useState(false)

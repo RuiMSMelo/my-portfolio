@@ -25,7 +25,7 @@ function Homepage() {
         <>
             {!videoLoaded && <div className='black-screen' />}{' '}
             <div className='homepage-container'>
-                <div
+                {/* <div
                     className={`video-container ${
                         videoLoaded ? 'fade-in' : 'hidden'
                     }`}
@@ -39,7 +39,7 @@ function Homepage() {
                     >
                         <source src={oceanVideo} type='video/mp4' />
                     </video>
-                </div>
+                </div> */}
 
                 <div className='homepage-text-container'>
                     <Link to='/about'>

@@ -1,9 +1,5 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { Link } from 'react-router-dom'
-import cssicon from '../../img/cssicon.svg'
-import reacticon from '../../img/reacticon.svg'
-import nodejsicon from '../../img/nodejsicon.svg'
-import mongodbicon from '../../img/mongodbicon.svg'
 
 function Soundspace() {
     const [hoveredHome, setHoveredHome] = useState(false)

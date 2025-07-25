@@ -1,6 +1,5 @@
 import * as THREE from 'three'
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js'
-import GUI from 'lil-gui'
 import waterVertexShader from './shaders/water/vertex.glsl'
 import waterFragmentShader from './shaders/water/fragment.glsl'
 import {
@@ -20,11 +19,6 @@ const canvas = document.querySelector('canvas.webgl')
 
 // Scene
 const scene = new THREE.Scene()
-
-// // Axes helper
-// const axesHelper = new THREE.AxesHelper()
-// axesHelper.position.y += 0.25
-// scene.add(axesHelper)
 
 /**
  * Water
