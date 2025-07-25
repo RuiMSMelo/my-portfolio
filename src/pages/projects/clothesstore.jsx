@@ -38,10 +38,9 @@ function ClothesStore() {
                 </div> */}
                 <br />
                 <br />
-                I built this user-friendly online shopping website using the
-                FakeStoreAPI. With a fully functional cart system implemented.
-                <br />
-                It's a great beginner-mid level project for React developers.
+                A simple yet functional e-commerce website built using React and
+                styled for responsiveness. The app fetches product data from a
+                public API and displays them in a clean, user-friendly layout.
                 <br />
                 <br />
                 <br />

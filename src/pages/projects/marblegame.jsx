@@ -31,7 +31,10 @@ function Sharkattack() {
                 </div> */}
                 <br />
                 <br />
-                A game made with Three.js
+                A fun and immersive 3D marble game created using React Three
+                Fiber and Cannon.js for physics simulation. Players navigate a
+                marble through challenging obstacles while the app tracks
+                completion time.
                 <br />
                 <br />
                 <br />

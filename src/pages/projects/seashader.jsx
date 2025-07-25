@@ -54,7 +54,10 @@ function Seashader() {
                 </div> */}
                 <br />
                 <br />
-                A shader project made with GLSL of the sea at night
+                An atmospheric WebGL shader built with GLSL and Three.js,
+                creating a night-time ocean scene illuminated by a central point
+                light. Users can interact with the scene using a GUI panel to
+                tweak wave motion and visual effects.
                 <br />
                 <br />
                 <br />

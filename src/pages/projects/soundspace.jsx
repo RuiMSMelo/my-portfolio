@@ -52,9 +52,11 @@ function Soundspace() {
                 </div> */}
                 <br />
                 <br />
-                soundSpace is an innovative online platform designed to bring
-                together individuals in the music industry, fostering a vibrant
-                community that thrives on collaboration and connection.
+                A collaborative music networking platform where artists and
+                producers can connect, share ideas, and collaborate on projects.
+                Built with the MERN stack (MongoDB, Express, React, Node.js),
+                featuring secure user authentication, dynamic user profiles, and
+                responsive UI design.
                 <br />
                 <br />
                 <br />

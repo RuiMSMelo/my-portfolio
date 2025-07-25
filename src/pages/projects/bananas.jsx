@@ -54,7 +54,10 @@ function Bookzone() {
                 </div> */}
                 <br />
                 <br />
-                A project about Bananas!
+                An interactive homepage featuring a dynamic 3D scene of rotating
+                bananas floating across the screen. Built with React Three Fiber
+                and styled in vibrant yellow tones for a fun and unique visual
+                experience.
                 <br />
                 <br />
                 <br />

@@ -27,9 +27,9 @@ function About() {
                 connection to the ocean.
                 <br />
                 <br />
-                Originally from Portugal and now living in Madrid, I bring my
-                love for the digital world with a background rooted in marine
-                biology and several years of diving experience.
+                Based in Portugal, I bring my love for the digital world with a
+                background rooted in marine biology and several years of diving
+                experience and team management.
                 <br />
                 <br />
                 Fluent in Portuguese, English, and Spanish.

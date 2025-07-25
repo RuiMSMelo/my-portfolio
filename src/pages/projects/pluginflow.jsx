@@ -38,8 +38,9 @@ function Pluginflow() {
                 </div> */}
                 <br />
                 <br />
-                During my intership with Nervecenter I was tasked to develop
-                this homepage for their new website.
+                Developed a modern homepage for a client during my internship,
+                using HTML, CSS, and vanilla JavaScript. Focused on clean
+                design, functional navigation, and brand consistency.
                 {/* <br />
                 As you can check it out here:
                 <Link
