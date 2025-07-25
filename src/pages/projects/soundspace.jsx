@@ -24,7 +24,7 @@ function Soundspace() {
                 </h2>
             </Link>
             <p>
-                <div className='madewith-div'>
+                {/* <div className='madewith-div'>
                     <img
                         src={reacticon}
                         className='small-icons'
@@ -49,7 +49,7 @@ function Soundspace() {
                         alt='MongoDB'
                         title='MongoDB'
                     />
-                </div>
+                </div> */}
                 <br />
                 <br />
                 soundSpace is an innovative online platform designed to bring

@@ -40,7 +40,7 @@ function Pluginflow() {
                 <br />
                 During my intership with Nervecenter I was tasked to develop
                 this homepage for their new website.
-                <br />
+                {/* <br />
                 As you can check it out here:
                 <Link
                     to='https://nervecenter.ai/'
@@ -48,12 +48,12 @@ function Pluginflow() {
                     className='links-to-websites'
                 >
                     https://nervecenter.ai/
-                </Link>
+                </Link> */}
                 <br />
                 <br />
                 <br />
                 <br />
-                Sitio web:
+                Website:
                 <br />
                 <Link
                     to='https://ruimsmelo.github.io/NerveCenter-Homepage/'
