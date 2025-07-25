@@ -22,7 +22,7 @@ function ClothesStore() {
                 </h2>
             </Link>
             <p>
-                <div className='madewith-div'>
+                {/* <div className='madewith-div'>
                     <img
                         src={reacticon}
                         className='small-icons'
@@ -35,7 +35,7 @@ function ClothesStore() {
                         alt='CSS'
                         title='CSS'
                     />
-                </div>
+                </div> */}
                 <br />
                 <br />
                 I built this user-friendly online shopping website using the

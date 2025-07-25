@@ -3,7 +3,6 @@ import Homepage from './pages/Homepage'
 import Projects from './pages/Projects'
 import About from './pages/About'
 import Contacts from './pages/Contacts'
-import Tesla from './pages/projects/tesla'
 import Soundspace from './pages/projects/soundspace'
 import Bananas from './pages/projects/bananas'
 import Marblegame from './pages/projects/marblegame'
@@ -20,7 +19,6 @@ function App() {
             <Route path='/projects' element={<Projects />} />
             <Route path='/about' element={<About />} />
             <Route path='/contacts' element={<Contacts />} />
-            <Route path='/tesla' element={<Tesla />} />
             <Route path='/soundspace' element={<Soundspace />} />
             <Route path='/bananas' element={<Bananas />} />
             <Route path='/marblegame' element={<Marblegame />} />

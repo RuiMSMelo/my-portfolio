@@ -22,7 +22,7 @@ function Pluginflow() {
                 </h2>
             </Link>
             <p>
-                <div className='madewith-div'>
+                {/* <div className='madewith-div'>
                     <img
                         src={htmlicon}
                         className='small-icons'
@@ -35,7 +35,7 @@ function Pluginflow() {
                         alt='CSS'
                         title='CSS'
                     />
-                </div>
+                </div> */}
                 <br />
                 <br />
                 During my intership with Nervecenter I was tasked to develop
